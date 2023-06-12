@@ -63,7 +63,7 @@ if choice=="EDA":
 if choice=="Download":
     with open("MLmodel.pkl",'rb') as f:
         st. title("Download your model from here:")
-        st.download_button("Download the file",f,MLmodel.pkl)
+        st.download_button("Download the file",f,"MLmodel.pkl")
         
     
 if choice=="Model":
