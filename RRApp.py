@@ -7,28 +7,6 @@ This is a temporary script file.
 import pandas as pd
 import numpy as np
 import streamlit as st
-page_image_bg = f"""
-<style>
-[data-testid="stAppViewContainer"]{{
-background-image: url("https://www.bing.com/th/id/OGC.2cd6ab068da3861d9e16adf23a83ed82?pid=1.7&rurl=https%3a%2f%2fmiro.medium.com%2fmax%2f2800%2f0*hpyUPaBF9V3Mb5T6.gif&ehk=MYrRK08M9fvRKTBulXwxcTs4wy5qVgrQrZRVm7Xr46w%3d");
-background-size: cover;
-background-repeat: no repeat;
-}}
-
-[data-testid="stHeader"]{{
-background-image: url("https://www.bing.com/th/id/OGC.2cd6ab068da3861d9e16adf23a83ed82?pid=1.7&rurl=https%3a%2f%2fmiro.medium.com%2fmax%2f2800%2f0*hpyUPaBF9V3Mb5T6.gif&ehk=MYrRK08M9fvRKTBulXwxcTs4wy5qVgrQrZRVm7Xr46w%3d");
-background-size: cover;
-background-repeat: no repeat;
-}}
-
-[data-testid="stSidebar"]{{
-background-image: url("https://th.bing.com/th/id/OIP.sXp4Ibf6XcsyZ-0m7xo_MgHaH_?pid=ImgDet&rs=1");
-background-size: cover;
-background-repeat: no repeat;
-}}
-</style>
-"""
-st.markdown(page_image_bg , unsafe_allow_html = True)
 import matplotlib as plt
 import seaborn as sns
 import os
